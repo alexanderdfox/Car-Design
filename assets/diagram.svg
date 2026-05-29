@@ -1,0 +1,72 @@
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" height="700" width="1200">
+  <title>Formic-1 Electric Urban Delivery Van</title>
+  <desc id="desc">Matte white low cab-over electric delivery van with orange safety accents, modular design, twin sensor pods, LiDAR bumper, and clean modern European urban logistics styling.</desc>
+  
+  
+  <ellipse opacity="0.6" fill="#e5e5e5" ry="65" rx="520" cy="620" cx="620"></ellipse>
+
+  
+  
+  <rect stroke-width="18" stroke="#2a2a2a" fill="#f8f8f8" rx="12" height="260" width="580" y="220" x="380"></rect>
+  
+  
+  <rect stroke-width="18" stroke="#2a2a2a" fill="#f8f8f8" rx="12" height="285" width="220" y="195" x="210"></rect>
+  
+  
+  <polygon stroke-width="12" stroke="#1a2a3a" fill="#c0e0ff" points="280,230 410,230 405,340 295,355"></polygon>
+  
+  
+  
+  <rect stroke-width="14" stroke="#2a2a2a" fill="none" height="190" width="190" y="255" x="520"></rect>
+  <line stroke-width="12" stroke="#2a2a2a" y2="445" x2="620" y1="255" x1="620"></line>
+  
+  
+  
+  <rect stroke-width="12" stroke="#2a2a2a" fill="#ff6200" rx="8" height="55" width="180" y="425" x="165"></rect>
+  
+  <rect stroke-width="12" stroke="#2a2a2a" fill="#ff6200" rx="8" height="55" width="95" y="425" x="880"></rect>
+  
+  
+  <rect fill="#2a2a2a" rx="15" height="65" width="720" y="470" x="220"></rect>
+  <rect fill="#1f1f1f" height="30" width="680" y="485" x="240"></rect>
+  
+  
+  
+  <circle fill="#1a1a1a" r="68" cy="520" cx="310"></circle>
+  <circle fill="#333" r="48" cy="520" cx="310"></circle>
+  <circle fill="#ddd" r="28" cy="520" cx="310"></circle>
+  
+  <circle fill="#1a1a1a" r="68" cy="520" cx="680"></circle>
+  <circle fill="#333" r="48" cy="520" cx="680"></circle>
+  <circle fill="#ddd" r="28" cy="520" cx="680"></circle>
+  
+  
+  
+  <rect transform="rotate(-12 250 190)" fill="#1c1c1c" rx="6" height="55" width="38" y="165" x="245"></rect>
+  
+  <rect transform="rotate(12 380 180)" fill="#1c1c1c" rx="6" height="55" width="38" y="155" x="355"></rect>
+  
+  
+  <rect fill="#1a2a3a" rx="8" height="65" width="110" y="370" x="175"></rect>
+  
+  <rect opacity="0.9" fill="#88eeff" rx="4" height="18" width="105" y="380" x="175"></rect>
+  
+  
+  <rect fill="#ff2222" rx="6" height="85" width="45" y="380" x="920"></rect>
+  
+  
+  <rect fill="#1a2a3a" rx="8" height="55" width="35" y="330" x="885"></rect>
+  <circle fill="#444" r="14" cy="357" cx="902"></circle>
+  
+  
+  <line stroke-width="22" stroke="#2a2a2a" y2="445" x2="410" y1="230" x1="410"></line>
+  <line stroke-width="18" stroke="#2a2a2a" y2="445" x2="780" y1="230" x1="780"></line>
+  
+  
+  <rect opacity="0.6" fill="#ffffff" height="8" width="150" y="245" x="230"></rect>
+  <rect opacity="0.5" fill="#ffffff" height="6" width="530" y="260" x="400"></rect>
+  
+  
+  <rect opacity="0.15" stroke-width="18" stroke="#111" fill="none" rx="12" height="285" width="220" y="195" x="210"></rect>
+  
+</svg>

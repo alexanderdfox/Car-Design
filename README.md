@@ -9,6 +9,7 @@ Decentralized **electric urban logistics vehicles** that coordinate like an ant 
 | [electric-ant-cars-prompt-guide.md](./electric-ant-cars-prompt-guide.md) | Prompt cookbook |
 | [electric-ant-car-design-guide.md](./electric-ant-car-design-guide.md) | Formic-1 vehicle design brief |
 | [docs/formic-ant-appearance-prompt.md](./docs/formic-ant-appearance-prompt.md) | Ant-inspired **look** prompt (image/CAD) |
+| [docs/ai-image-car-design-prompt.md](./docs/ai-image-car-design-prompt.md) | **AI image generator** copy-paste prompts |
 | [assets/appearance/](./assets/appearance/) | Appearance SVGs `appearance-00` .. `appearance-08` |
 | [docs/electric-ant-nest-design.md](./docs/electric-ant-nest-design.md) | 40-stall charging nest (infrastructure only) |
 | [docs/nest-render-prompts.md](./docs/nest-render-prompts.md) | Nest image/CAD prompt pack |

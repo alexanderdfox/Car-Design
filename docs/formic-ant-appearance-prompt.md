@@ -86,6 +86,10 @@ Side view, Formic-1 electric delivery van: low cab-over white matte body, orange
 
 ---
 
+## AI image generators
+
+Optimized copy-paste pack (Midjourney, DALL·E, Stable Diffusion, etc.): [ai-image-car-design-prompt.md](./ai-image-car-design-prompt.md)
+
 ## SVG assets (from this prompt)
 
 | Prompt element | SVG |
