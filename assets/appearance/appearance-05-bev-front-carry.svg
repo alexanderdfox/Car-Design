@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="system-ui, sans-serif">
+  <title>Appearance 05 - BEV front and cargo carry</title>
+  <rect width="900" height="440" fill="#fff"/>
+  <text x="24" y="32" font-size="18" font-weight="600">Electric read + carrying capacity</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Deformable zone ahead of sensors | cutaway load floor</text>
+  <!-- side cutaway -->
+  <rect x="60" y="100" width="500" height="140" fill="#fafafa" stroke="#18181b" stroke-width="2"/>
+  <rect x="60" y="100" width="70" height="140" fill="#fee2e2" stroke="#ef4444"/>
+  <text x="95" y="175" font-size="8" text-anchor="middle" fill="#dc2626">deformable</text>
+  <rect x="130" y="100" width="90" height="140" fill="#e4e4e7"/>
+  <rect x="220" y="115" width="320" height="110" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 2"/>
+  <line x1="230" y1="200" x2="530" y2="200" stroke="#d97706" stroke-width="1"/>
+  <text x="380" y="175" font-size="11" text-anchor="middle">flat load floor 650 mm</text>
+  <rect x="220" y="235" width="320" height="20" fill="#a1a1aa"/>
+  <text x="380" y="250" font-size="9" text-anchor="middle" fill="#fff">underbody cassette</text>
+  <!-- BEV checklist -->
+  <g transform="translate(600,100)">
+    <rect width="260" height="200" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+    <text x="16" y="28" font-size="12" font-weight="600" fill="#166534">Must read as BEV</text>
+    <text x="16" y="52" font-size="10">- No exhaust pipe</text>
+    <text x="16" y="72" font-size="10">- No fake ICE grille</text>
+    <text x="16" y="92" font-size="10">- Clean flat front under sensors</text>
+    <text x="16" y="112" font-size="10">- Swap pack under cargo</text>
+    <text x="16" y="132" font-size="10">- Quiet utility proportions</text>
+    <text x="16" y="160" font-size="10">- Regen-friendly urban mass</text>
+  </g>
+  <rect x="60" y="300" width="500" height="80" fill="#f4f4f5" stroke="#d4d4d8"/>
+  <text x="310" y="345" font-size="11" text-anchor="middle">Large side roller door (carry)</text>
+  <text x="24" y="420" font-size="9" fill="#a1a1aa">Repair crush zone without recalibrating LiDAR mount</text>
+</svg>

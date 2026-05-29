@@ -51,3 +51,23 @@ From [docs/electric-ant-nest-design.md](../docs/electric-ant-nest-design.md) and
 | nest-08 | Operator scope | [nest/nest-08-operator-scope.svg](./nest/nest-08-operator-scope.svg) |
 
 See [nest/README.md](./nest/README.md).
+
+---
+
+## Ant appearance assets (`assets/appearance/`)
+
+From [docs/formic-ant-appearance-prompt.md](../docs/formic-ant-appearance-prompt.md).
+
+| ID | Topic | SVG |
+|----|-------|-----|
+| appearance-00 | Show vs avoid key | [appearance/appearance-00-key.svg](./appearance/appearance-00-key.svg) |
+| appearance-01 | Side studio (master) | [appearance/appearance-01-side-studio.svg](./appearance/appearance-01-side-studio.svg) |
+| appearance-02 | Segmented modules | [appearance/appearance-02-segmented-modules.svg](./appearance/appearance-02-segmented-modules.svg) |
+| appearance-03 | Front antenna arc | [appearance/appearance-03-antenna-arc-front.svg](./appearance/appearance-03-antenna-arc-front.svg) |
+| appearance-04 | 3/4 rear | [appearance/appearance-04-three-quarter.svg](./appearance/appearance-04-three-quarter.svg) |
+| appearance-05 | BEV + carry | [appearance/appearance-05-bev-front-carry.svg](./appearance/appearance-05-bev-front-carry.svg) |
+| appearance-06 | Colony members | [appearance/appearance-06-colony-member.svg](./appearance/appearance-06-colony-member.svg) |
+| appearance-07 | Rear nest | [appearance/appearance-07-rear-nest.svg](./appearance/appearance-07-rear-nest.svg) |
+| appearance-08 | Materials / mood | [appearance/appearance-08-materials-mood.svg](./appearance/appearance-08-materials-mood.svg) |
+
+See [appearance/README.md](./appearance/README.md).

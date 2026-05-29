@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="system-ui, sans-serif">
+  <title>Appearance 04 - three-quarter rear studio</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f4f4f5"/><stop offset="100%" stop-color="#d4d4d8"/></linearGradient>
+  </defs>
+  <rect width="960" height="520" fill="url(#g)"/>
+  <text x="24" y="32" font-size="18" font-weight="600">3/4 rear - studio product angle</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Grounded near-future logistics | European urban scale</text>
+  <!-- simplified 3/4 body -->
+  <path d="M180 380 L180 220 L320 160 L520 180 L720 200 L780 380 Z" fill="#fafafa" stroke="#18181b" stroke-width="2"/>
+  <path d="M180 220 L200 140 L340 110 L400 200 Z" fill="#e4e4e7" stroke="#18181b"/>
+  <rect x="520" y="200" width="12" height="120" fill="#f97316" transform="skewY(-5)"/>
+  <!-- rear face -->
+  <path d="M720 200 L780 220 L780 380 L700 380 Z" fill="#f4f4f5" stroke="#18181b"/>
+  <rect x="748" y="260" width="20" height="50" fill="#f97316"/>
+  <rect x="730" y="300" width="6" height="40" fill="#22c55e"/>
+  <rect x="755" y="320" width="28" height="28" fill="#fff" stroke="#18181b"/>
+  <text x="769" y="338" font-size="6" text-anchor="middle">QR</text>
+  <!-- sensor pillar visible -->
+  <rect x="210" y="100" width="28" height="70" rx="4" fill="#18181b" stroke="#f97316"/>
+  <!-- wheels -->
+  <ellipse cx="320" cy="385" rx="45" ry="18" fill="#27272a"/>
+  <ellipse cx="650" cy="390" rx="45" ry="18" fill="#27272a"/>
+  <!-- inset box -->
+  <rect x="600" y="80" width="320" height="140" fill="#fff" stroke="#d4d4d8" rx="4"/>
+  <text x="620" y="105" font-size="11" font-weight="600">Rear inset detail</text>
+  <text x="620" y="125" font-size="9">CCS port | charge LED strip</text>
+  <text x="620" y="141" font-size="9">agent ID QR | pantograph pocket hint</text>
+  <text x="620" y="165" font-size="9" fill="#71717a">soft overhead studio light</text>
+  <line x1="60" y1="400" x2="900" y2="400" stroke="#9ca3af"/>
+  <text x="24" y="505" font-size="9" fill="#a1a1aa">Optional coupling face on far side - not shown dominant</text>
+</svg>
