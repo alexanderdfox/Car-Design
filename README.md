@@ -9,10 +9,14 @@ Decentralized **electric urban logistics vehicles** that coordinate like an ant 
 | [electric-ant-cars-prompt-guide.md](./electric-ant-cars-prompt-guide.md) | Prompt cookbook |
 | [electric-ant-car-design-guide.md](./electric-ant-car-design-guide.md) | Formic-1 vehicle design brief |
 | [docs/electric-ant-nest-design.md](./docs/electric-ant-nest-design.md) | 40-stall charging nest (infrastructure only) |
+| [docs/nest-render-prompts.md](./docs/nest-render-prompts.md) | Nest image/CAD prompt pack |
+| [assets/nest/](./assets/nest/) | Nest SVGs nest-00 .. nest-08 (all doc sections) |
 | [docs/narrative-bridge-closure.md](./docs/narrative-bridge-closure.md) | Story: bridge closure, 3 agents |
 | [docs/render-prompts.md](./docs/render-prompts.md) | Image/CAD prompt pack |
-| [assets/formic-1-side.svg](./assets/formic-1-side.svg) | Vehicle side schematic |
-| [assets/formic-nest-plan.svg](./assets/formic-nest-plan.svg) | Nest plan schematic |
+| [assets/README.md](./assets/README.md) | Render prompt → SVG matrix (00–05) |
+| [assets/render-01-side-view.svg](./assets/render-01-side-view.svg) … `render-05` | All [render-prompts](./docs/render-prompts.md) scenes |
+| [assets/formic-1-side.svg](./assets/formic-1-side.svg) | Legacy alias → see `render-01` |
+| [assets/formic-nest-plan.svg](./assets/formic-nest-plan.svg) | Nest top-down plan (companion to `render-04`) |
 | [formic_stack/](./formic_stack/) | Python agent stack (ROS2-style topics, no `/fleet/command`) |
 | [simulations/city_routing/](./simulations/city_routing/) | 200-agent grid sim + pseudocode |
 | [tests/](./tests/) | Evaporation + offline recovery tests |

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="system-ui, sans-serif">
+  <title>Nest 03 - stall pheromone fields</title>
+  <rect width="960" height="520" fill="#ffffff"/>
+  <text x="24" y="32" font-size="18" font-weight="600">Stall pheromone - map cell fields (TTL)</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Section 3 | agents read/write | evaporation on stale claims</text>
+  <!-- stall cell -->
+  <rect x="80" y="100" width="200" height="200" fill="#fff7ed" stroke="#f97316" stroke-width="3" rx="8"/>
+  <text x="180" y="130" font-size="14" font-weight="600" text-anchor="middle">Stall S12</text>
+  <g font-size="11" fill="#3f3f46">
+    <text x="100" y="160"><tspan font-weight="600">reserved_until</tspan> UTC timestamp</text>
+    <text x="100" y="182"><tspan font-weight="600">price_kw</tspan> float ($/kWh eq.)</text>
+    <text x="100" y="204"><tspan font-weight="600">swap_ready</tspan> bool (lift idle)</text>
+    <text x="100" y="226"><tspan font-weight="600">v2g_enabled</tspan> bool (hardware)</text>
+  </g>
+  <!-- agent read -->
+  <g transform="translate(360,120)">
+    <rect width="200" height="80" fill="#eff6ff" stroke="#3b82f6" rx="6"/>
+    <text x="16" y="28" font-size="12" font-weight="600" fill="#1e40af">Agent READ</text>
+    <text x="16" y="48" font-size="10">horizon H ~ 2 km tile</text>
+    <text x="16" y="64" font-size="10">if now &lt; reserved: cost=INF</text>
+  </g>
+  <path d="M280 200 L360 160" stroke="#3b82f6" stroke-width="2" marker-end="url(#ar)"/>
+  <!-- agent write -->
+  <g transform="translate(360,240)">
+    <rect width="200" height="80" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+    <text x="16" y="28" font-size="12" font-weight="600" fill="#166534">Agent WRITE</text>
+    <text x="16" y="48" font-size="10">reserved_until = now+12min</text>
+    <text x="16" y="64" font-size="10">clear on exit</text>
+  </g>
+  <path d="M280 220 L360 280" stroke="#22c55e" stroke-width="2" marker-end="url(#ar)"/>
+  <!-- evaporation -->
+  <g transform="translate(620,140)">
+    <rect width="280" height="160" fill="#fafafa" stroke="#d4d4d8" rx="6"/>
+    <text x="16" y="28" font-size="12" font-weight="600">Evaporation</text>
+    <text x="16" y="52" font-size="10">lambda ~ 0.99 / min stale claims</text>
+    <text x="16" y="72" font-size="10">price_kw decays if idle &gt; 10 min</text>
+    <text x="16" y="100" font-size="10" fill="#dc2626">FORBIDDEN:</text>
+    <text x="16" y="118" font-size="9" fill="#dc2626">re-sort all 40 queues / sec</text>
+    <text x="16" y="134" font-size="9" fill="#dc2626">push slot IDs from HQ</text>
+  </g>
+  <defs><marker id="ar" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#52525b"/></marker></defs>
+  <text x="24" y="500" font-size="9" fill="#a1a1aa">Code: formic_stack/pheromone_map.py charger_claim</text>
+</svg>

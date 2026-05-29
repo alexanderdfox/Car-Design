@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" font-family="system-ui, sans-serif">
+  <title>Nest 01 - site summary (120x80 m)</title>
+  <rect width="920" height="520" fill="#f4f4f5"/>
+  <text x="24" y="32" font-size="18" font-weight="600">Formic-1 charging nest - site summary</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Section 1 | 120 m x 80 m parcel | 40 stalls | Prompt nest-01</text>
+  <!-- parcel -->
+  <rect x="120" y="100" width="600" height="400" fill="#e4e4e7" stroke="#18181b" stroke-width="2" rx="4"/>
+  <text x="420" y="90" font-size="12" text-anchor="middle" fill="#52525b">120 m</text>
+  <text x="100" y="310" font-size="12" text-anchor="middle" fill="#52525b" transform="rotate(-90 100 310)">80 m</text>
+  <rect x="140" y="130" width="560" height="50" fill="#fafafa" stroke="#f97316" stroke-dasharray="6 3"/>
+  <text x="420" y="160" font-size="11" text-anchor="middle">Buffer + stall zone (40)</text>
+  <rect x="140" y="200" width="560" height="80" fill="#d4d4d8" stroke="#71717a"/>
+  <text x="420" y="245" font-size="11" text-anchor="middle">CCS overflow + cassette storage</text>
+  <!-- callouts -->
+  <g transform="translate(740,100)">
+    <rect width="160" height="220" fill="#fff" stroke="#d4d4d8" rx="6"/>
+    <text x="16" y="28" font-size="12" font-weight="600">Parameters</text>
+    <text x="16" y="52" font-size="10">Capacity: 40 stalls</text>
+    <text x="16" y="70" font-size="10">Grid: 2.4 MVA nameplate</text>
+    <text x="16" y="88" font-size="10">Planning cap: 1.56 MVA</text>
+    <text x="16" y="106" font-size="9" fill="#71717a">(diversity 0.65)</text>
+    <text x="16" y="128" font-size="10">Per stall peak:</text>
+    <text x="16" y="144" font-size="10">150 kW DC + 12 kW swap</text>
+    <text x="16" y="168" font-size="10">Cassette: 1800x1400x220</text>
+    <text x="16" y="192" font-size="10">V2G: per-agent opt-in</text>
+  </g>
+  <text x="24" y="500" font-size="9" fill="#a1a1aa">Excluded: queen tower, hex hive depot, central dispatcher office</text>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="system-ui, -apple-system, sans-serif">
+  <title>Render 04 - Charging nest aerial</title>
+  <desc>Aerial depot: 40 swap/charge stalls, buffer lane, cassette storage. Industrial matte, orange safety. No hex hive or queen tower.</desc>
+  <defs>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e4e4e7"/>
+      <stop offset="100%" stop-color="#d4d4d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="#cbd5e1"/>
+  <text x="24" y="32" font-size="18" font-weight="600">Charging nest - aerial view</text>
+  <text x="24" y="52" font-size="11" fill="#475569">Prompt 04 | 40 stalls | buffer | cassette storage | stigmergy traces (no dispatcher tower)</text>
+  <!-- site pad isometric -->
+  <g transform="translate(120,80) skewX(-12) scale(1,0.75)">
+    <rect x="0" y="0" width="600" height="400" fill="url(#roof)" stroke="#18181b" stroke-width="2"/>
+    <!-- street top -->
+    <rect x="-40" y="-30" width="680" height="35" fill="#71717a"/>
+    <text x="280" y="-8" font-size="11" text-anchor="middle" fill="#fff">ingress street | queue spillback traces</text>
+    <!-- buffer -->
+    <rect x="30" y="40" width="540" height="45" fill="#fafafa" stroke="#f97316" stroke-dasharray="8 4"/>
+    <text x="300" y="68" font-size="11" text-anchor="middle">buffer lane</text>
+    <!-- row A stalls -->
+    <g id="stall">
+      <rect width="48" height="72" fill="#fff" stroke="#f97316" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(40,100)">
+      <use href="#stall" x="0" y="0"/><use href="#stall" x="55" y="0"/><use href="#stall" x="110" y="0"/>
+      <use href="#stall" x="165" y="0"/><use href="#stall" x="220" y="0"/><use href="#stall" x="275" y="0"/>
+      <use href="#stall" x="330" y="0"/><use href="#stall" x="385" y="0"/><use href="#stall" x="440" y="0"/>
+      <text x="250" y="95" font-size="12" text-anchor="middle" fill="#52525b">Row A | swap lifts S01-S20</text>
+    </g>
+    <g transform="translate(40,200)">
+      <use href="#stall" x="0" y="0"/><use href="#stall" x="55" y="0"/><use href="#stall" x="110" y="0"/>
+      <use href="#stall" x="165" y="0"/><use href="#stall" x="220" y="0"/><use href="#stall" x="275" y="0"/>
+      <text x="250" y="95" font-size="12" text-anchor="middle" fill="#52525b">Row B | S21-S40</text>
+    </g>
+    <!-- storage -->
+    <rect x="40" y="310" width="520" height="60" fill="#a1a1aa" stroke="#52525b"/>
+    <text x="300" y="345" font-size="11" text-anchor="middle" fill="#18181b">cassette storage | CCS overflow</text>
+    <!-- street bottom -->
+    <rect x="-40" y="390" width="680" height="35" fill="#71717a"/>
+    <!-- vans on pad -->
+    <rect x="80" y="115" width="36" height="18" fill="#fafafa" stroke="#18181b" transform="rotate(-8 98 124)"/>
+    <rect x="200" y="210" width="36" height="18" fill="#fafafa" stroke="#18181b"/>
+    <rect x="400" y="120" width="36" height="18" fill="#fafafa" stroke="#18181b" transform="rotate(5 418 129)"/>
+  </g>
+  <!-- orange safety strip legend -->
+  <g transform="translate(680,120)">
+    <rect x="0" y="0" width="180" height="200" fill="#ffffffcc" stroke="#d4d4d8" rx="6"/>
+    <text x="16" y="24" font-size="11" font-weight="600">Site notes</text>
+    <line x1="16" y1="40" x2="40" y2="40" stroke="#f97316" stroke-width="4"/>
+    <text x="48" y="44" font-size="10">Orange safety markings</text>
+    <text x="16" y="68" font-size="10" fill="#52525b">120 m | 80 m parcel</text>
+    <text x="16" y="86" font-size="10" fill="#52525b">1.56 MVA diversified cap</text>
+    <text x="16" y="104" font-size="10" fill="#52525b">stall: reserved_until</text>
+    <text x="16" y="122" font-size="10" fill="#52525b">price_kw load balance</text>
+    <text x="16" y="150" font-size="9" fill="#dc2626">- hex hive layout</text>
+    <text x="16" y="168" font-size="9" fill="#dc2626">- queen control tower</text>
+  </g>
+  <text x="24" y="540" font-size="9" fill="#64748b">See plan view: formic-nest-plan.svg | docs/electric-ant-nest-design.md</text>
+</svg>

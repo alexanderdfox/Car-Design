@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="system-ui, sans-serif">
+  <title>Nest 08 - human operator scope</title>
+  <rect width="900" height="440" fill="#f4f4f5"/>
+  <text x="24" y="32" font-size="18" font-weight="600">Human operator scope</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Section 7 | infrastructure capacity only - not per-vehicle routes</text>
+  <!-- allowed -->
+  <rect x="40" y="80" width="400" height="300" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="8"/>
+  <text x="240" y="115" font-size="16" font-weight="600" fill="#166534" text-anchor="middle">ALLOWED</text>
+  <g font-size="12" fill="#14532d">
+    <text x="60" y="155">- Close row for maintenance</text>
+    <text x="60" y="185">- Fire emergency stop (nest-wide)</text>
+    <text x="60" y="215">- Adjust base price_kw floor</text>
+    <text x="60" y="245">- Open/close nest capacity (rows)</text>
+  </g>
+  <rect x="80" y="270" width="320" height="80" fill="#fff" stroke="#86efac" rx="4"/>
+  <text x="240" y="300" font-size="10" text-anchor="middle" fill="#52525b">Minimal panel - no throne, no hive dome</text>
+  <!-- forbidden -->
+  <rect x="460" y="80" width="400" height="300" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="8"/>
+  <text x="660" y="115" font-size="16" font-weight="600" fill="#991b1b" text-anchor="middle">FORBIDDEN</text>
+  <g font-size="12" fill="#7f1d1d">
+    <text x="480" y="155">- Assign car 17 to stall 4</text>
+    <text x="480" y="185">- Push global route table</text>
+    <text x="480" y="215">- Queen console convoy launch</text>
+    <text x="480" y="245">- Per-tick slot broadcast to fleet</text>
+  </g>
+  <rect x="500" y="270" width="320" height="80" fill="#fff" stroke="#fca5a5" rx="4"/>
+  <text x="660" y="300" font-size="10" text-anchor="middle" fill="#dc2626">X queen console X hive ops center</text>
+  <text x="24" y="420" font-size="9" fill="#a1a1aa">Matches quality checklist: no master scheduler</text>
+</svg>

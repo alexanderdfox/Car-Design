@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="system-ui, sans-serif">
+  <title>Nest 05 - SOC thresholds and spillback</title>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <text x="24" y="32" font-size="18" font-weight="600">SOC bands and queue spillback</text>
+  <text x="24" y="52" font-size="11" fill="#71717a">Section 4 | street_pheromone on ingress when stalls blocked</text>
+  <!-- SOC meter -->
+  <rect x="80" y="90" width="80" height="320" fill="#e2e8f0" stroke="#64748b" rx="4"/>
+  <rect x="80" y="90" width="80" height="96" fill="#22c55e"/>
+  <text x="120" y="130" font-size="9" text-anchor="middle" fill="#fff">Normal &gt;40%</text>
+  <rect x="80" y="186" width="80" height="80" fill="#eab308"/>
+  <text x="120" y="230" font-size="9" text-anchor="middle">Lean 25-40%</text>
+  <rect x="80" y="266" width="80" height="64" fill="#f97316"/>
+  <text x="120" y="300" font-size="8" text-anchor="middle" fill="#fff">Seek 15-25%</text>
+  <rect x="80" y="330" width="80" height="80" fill="#ef4444"/>
+  <text x="120" y="375" font-size="8" text-anchor="middle" fill="#fff">Critical &lt;15%</text>
+  <!-- behaviors -->
+  <g font-size="11" fill="#334155">
+    <text x="200" y="130">Deliveries only; pass nest without write</text>
+    <text x="200" y="230">Bias route toward low price_kw nests</text>
+    <text x="200" y="300">Must acquire stall pheromone or hazard trace</text>
+    <text x="200" y="375">Deposit low_soc_spill on street graph</text>
+  </g>
+  <!-- spillback diagram -->
+  <g transform="translate(200,400)">
+    <rect x="0" y="0" width="680" height="90" fill="#fff" stroke="#d4d4d8" rx="6"/>
+    <rect x="20" y="20" width="640" height="24" fill="#71717a"/>
+    <text x="340" y="36" font-size="10" fill="#fff" text-anchor="middle">STREET ingress</text>
+    <path d="M340 44 L340 70" stroke="#ef4444" stroke-width="2"/>
+    <text x="360" y="65" font-size="10" fill="#dc2626">street_queue_pheromone</text>
+    <text x="20" y="82" font-size="9" fill="#64748b">All reserved_until blocked -&gt; peers reroute without central router</text>
+  </g>
+  <!-- van icons -->
+  <rect x="720" y="120" width="48" height="24" rx="3" fill="#fafafa" stroke="#94a3b8"/>
+  <rect x="780" y="260" width="48" height="24" rx="3" fill="#fafafa" stroke="#94a3b8"/>
+  <rect x="720" y="340" width="48" height="24" rx="3" fill="#fafafa" stroke="#f97316"/>
+  <text x="24" y="505" font-size="9" fill="#a1a1aa">SOC_min typically 15-25% | alternate nest or CCS overflow</text>
+</svg>

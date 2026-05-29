@@ -60,6 +60,22 @@ Grounded sci-fi: three white electric delivery vans at night city intersection, 
 
 ---
 
+## SVG assets (all prompt combinations)
+
+Each row is **master + scene + negative**, drawn as engineering/story schematics in `assets/`.
+
+| Prompt | Asset |
+|--------|--------|
+| Key (master + negative) | [render-00-prompt-key.svg](../assets/render-00-prompt-key.svg) |
+| 1. Side view render | [render-01-side-view.svg](../assets/render-01-side-view.svg) |
+| 2. Package layout | [render-02-package-layout.svg](../assets/render-02-package-layout.svg) |
+| 3. Peer battery dock | [render-03-peer-dock-storyboard.svg](../assets/render-03-peer-dock-storyboard.svg) |
+| 4. Charging nest aerial | [render-04-nest-aerial.svg](../assets/render-04-nest-aerial.svg) |
+| 5. Bridge closure | [render-05-bridge-closure.svg](../assets/render-05-bridge-closure.svg) |
+| Nest plan (top-down companion) | [formic-nest-plan.svg](../assets/formic-nest-plan.svg) |
+
+Full matrix: [assets/README.md](../assets/README.md)
+
 ## CAD export checklist
 
 - Use dimensions from [electric-ant-car-design-guide.md](../electric-ant-car-design-guide.md) §10

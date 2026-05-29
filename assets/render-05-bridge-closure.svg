@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="system-ui, -apple-system, sans-serif">
+  <title>Render 05 - Bridge closure scene</title>
+  <desc>Night intersection: three Formic-1 vans, road closed, local UI glow. Distributed positions-not formation flight.</desc>
+  <defs>
+    <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="wetRoad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <g id="vanNight">
+      <rect x="0" y="0" width="100" height="48" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+      <path d="M0 0 L0 -14 L28 -22 L36 0 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+      <rect x="12" y="6" width="28" height="14" rx="2" fill="#38bdf833" stroke="#38bdf8"/>
+      <circle cx="22" cy="48" r="12" fill="#0f172a"/>
+      <circle cx="78" cy="48" r="12" fill="#0f172a"/>
+    </g>
+  </defs>
+  <rect width="960" height="520" fill="url(#nightSky)"/>
+  <text x="24" y="32" font-size="18" font-weight="600" fill="#f1f5f9">Bridge closure - local traces</text>
+  <text x="24" y="52" font-size="11" fill="#94a3b8">Prompt 05 | M-07 / M-19 / M-33 | grounded sci-fi | no hive chorus</text>
+  <!-- city blocks -->
+  <rect x="0" y="80" width="200" height="180" fill="#1e293b" stroke="#334155"/>
+  <rect x="760" y="60" width="200" height="200" fill="#1e293b" stroke="#334155"/>
+  <rect x="300" y="40" width="120" height="100" fill="#1e293b" stroke="#334155"/>
+  <!-- windows -->
+  <g fill="#fbbf2444">
+    <rect x="30" y="100" width="8" height="12"/><rect x="50" y="120" width="8" height="12"/>
+    <rect x="800" y="90" width="8" height="12"/><rect x="830" y="110" width="8" height="12"/>
+  </g>
+  <!-- road intersection -->
+  <rect x="0" y="320" width="960" height="200" fill="url(#wetRoad)"/>
+  <rect x="380" y="280" width="200" height="240" fill="#475569"/>
+  <!-- reflections -->
+  <ellipse cx="200" cy="400" rx="80" ry="12" fill="#ffffff15"/>
+  <ellipse cx="500" cy="420" rx="100" ry="14" fill="#ffffff18"/>
+  <ellipse cx="750" cy="390" rx="90" ry="12" fill="#ffffff12"/>
+  <!-- road closed sign -->
+  <g transform="translate(420,300)">
+    <rect x="0" y="0" width="80" height="48" fill="#f97316" stroke="#fff" stroke-width="2" rx="4"/>
+    <text x="40" y="22" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">ROAD</text>
+    <text x="40" y="38" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">CLOSED</text>
+    <rect x="36" y="48" width="8" height="40" fill="#94a3b8"/>
+  </g>
+  <!-- hazard trace hint on map -->
+  <path d="M450 360 L550 360 L520 400 L480 400 Z" fill="#f8717133" stroke="#ef4444" stroke-dasharray="4 2"/>
+  <text x="500" y="385" font-size="8" text-anchor="middle" fill="#fca5a5">hazard cell</text>
+  <!-- three vans - NOT in formation -->
+  <g transform="translate(120,330) rotate(-15)">
+    <use href="#vanNight"/>
+    <text x="0" y="-28" font-size="9" fill="#7dd3fc">M-07 scout ||</text>
+  </g>
+  <g transform="translate(520,350) rotate(8)">
+    <use href="#vanNight"/>
+    <text x="0" y="-28" font-size="9" fill="#7dd3fc">M-19 forager | east loop</text>
+  </g>
+  <g transform="translate(780,310) rotate(-5)">
+    <use href="#vanNight"/>
+    <text x="-20" y="-28" font-size="9" fill="#7dd3fc">M-33 SOC 22% | nest Gamma</text>
+  </g>
+  <!-- pheromone trail hints -->
+  <path d="M180 380 Q300 360 400 390" fill="none" stroke="#4ade80" stroke-width="2" opacity="0.5"/>
+  <path d="M600 400 Q700 370 820 360" fill="none" stroke="#4ade80" stroke-width="3" opacity="0.7"/>
+  <text x="300" y="355" font-size="8" fill="#86efac">west trail fading</text>
+  <text x="680" y="345" font-size="8" fill="#86efac">east loop strengthening</text>
+  <text x="24" y="500" font-size="9" fill="#64748b">No telepathy | no synchronized swarm LEDs | windscreen UI only</text>
+</svg>

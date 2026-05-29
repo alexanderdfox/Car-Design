@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="system-ui, sans-serif">
-  <title>Formic nest plan (nest-02) - layout plan (40 stalls)</title>
+  <title>Nest 02 - layout plan (40 stalls)</title>
   <defs>
     <g id="stall"><rect width="44" height="58" fill="#fff" stroke="#f97316" stroke-width="1.5"/><text x="6" y="34" font-size="8" fill="#3f3f46"/></g>
   </defs>

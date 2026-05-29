@@ -137,6 +137,30 @@ price_kw[stall] = base_rate * (1 + 0.6 * utilization_15min) - solar_offset
 
 ---
 
-## 9. Integration with code
+## 9. SVG assets and render prompts
+
+Each section above has a matching schematic: **nest master + section scene + negative suffix**.
+
+| Section | SVG | Image-model prompts |
+|---------|-----|---------------------|
+| Key | [nest-00-prompt-key.svg](../assets/nest/nest-00-prompt-key.svg) | [nest-render-prompts.md](./nest-render-prompts.md) |
+| 1. Site summary | [nest-01-site-summary.svg](../assets/nest/nest-01-site-summary.svg) | Scene 1 |
+| 2. Layout plan | [nest-02-layout-plan.svg](../assets/nest/nest-02-layout-plan.svg) | Scene 2 |
+| 3. Stall pheromone | [nest-03-stall-pheromone.svg](../assets/nest/nest-03-stall-pheromone.svg) | Scene 3 |
+| 3.1 Allocation | [nest-04-allocation-flow.svg](../assets/nest/nest-04-allocation-flow.svg) | Scene 4 |
+| 4. SOC spillback | [nest-05-soc-spillback.svg](../assets/nest/nest-05-soc-spillback.svg) | Scene 5 |
+| 5. Price balance | [nest-06-price-load-balance.svg](../assets/nest/nest-06-price-load-balance.svg) | Scene 6 |
+| 6. Electrical | [nest-07-electrical-oneline.svg](../assets/nest/nest-07-electrical-oneline.svg) | Scene 7 |
+| 7. Operator scope | [nest-08-operator-scope.svg](../assets/nest/nest-08-operator-scope.svg) | Scene 8 |
+
+Full matrix: [assets/nest/README.md](../assets/nest/README.md). Aerial companion: [render-04-nest-aerial.svg](../assets/render-04-nest-aerial.svg).
+
+```bash
+open assets/nest/nest-02-layout-plan.svg
+```
+
+---
+
+## 10. Integration with code
 
 Map fields are implemented in `formic_stack/pheromone_map.py` as `charger_claim` TTL cells. Run agents against a 40-stall fixture in tests.
